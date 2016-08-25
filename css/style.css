@@ -14,10 +14,12 @@ h2 {
 }
 h3{
   line-height: 30px;
+  font-family: 'Forum', cursive;
 }
 h4{
 color: #1D634A;
 font-size: 20px;
+font-family: 'Forum', cursive;
 }
 p{
   padding-top: 10px;
@@ -26,7 +28,7 @@ p{
   font-family: 'Forum', cursive;
 }
 #hero{
-  padding: 55px 0;
+  padding: 50px 0;
 }
 .carousel-inner{
     display: inline-block;
@@ -61,11 +63,18 @@ p{
   color: #1D634A;
 }
 .image p{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .one{
   padding: 0 95px;
+}
+.one p{
+  padding-top: 20px;
+  line-height: 1.6em;
+}
+.one h2{
+  padding-bottom: 10px;
 }
 
 .carousel-control{
@@ -78,6 +87,7 @@ p{
     padding-right: 20px;
     overflow: hidden;
     position: relative;
+    -webkit-filter: grayscale(100%);
 }
 .carousel-inner {
   text-align: center;
@@ -108,7 +118,7 @@ h4:hover{
 }
 .img-circle:hover{
   filter: none;
-  -webkit-filter: grayscale(100%);
+  -webkit-filter: grayscale(0%);
 }
 a:hover {
     color: #1D634A;
